@@ -1,5 +1,3 @@
-# Projet généré par XcodeGen (xcodegen generate)
-*.xcodeproj/
 *.xcworkspace/
 DerivedData/
 build/
@@ -11,3 +9,5 @@ GoogleService-Info.plist
 *.p8
 *.p12
 *.mobileprovision
+# Fichiers personnels Xcode
+*.xcodeproj/project.xcworkspace/xcuserdata/
