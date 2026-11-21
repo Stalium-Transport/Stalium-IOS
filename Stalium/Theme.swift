@@ -153,7 +153,13 @@ struct EmptyState: View {
 
 struct SectionTitle<Trailing: View>: View {
     let text: String
-    @ViewBuilder var trailing: () -> Trailing
+    var trailing: () -> Trailing
+
+    init(_ text: String, @ViewBuilder trailing: @escaping () -> Trailing) {
+        self.text = text
+        self.trailing = trailing
+    }
+
     var body: some View {
         HStack {
             Text(text).font(.headline)

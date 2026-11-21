@@ -133,7 +133,7 @@ enum Api {
 
     static func logout() async {
         _ = try? await post("login.php?action=logout")
-        clearLocal()
+        await clearLocal()
     }
 
     @MainActor
