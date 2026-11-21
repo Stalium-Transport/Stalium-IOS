@@ -1,0 +1,13 @@
+# Projet généré par XcodeGen (xcodegen generate)
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+build.log
+.DS_Store
+xcuserdata/
+# Secrets / config Firebase : jamais dans git
+GoogleService-Info.plist
+*.p8
+*.p12
+*.mobileprovision

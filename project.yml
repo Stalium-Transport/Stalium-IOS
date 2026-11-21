@@ -1,0 +1,34 @@
+name: Stalium
+options:
+  bundleIdPrefix: fr.stalium
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "2.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: "11.6.0"
+targets:
+  Stalium:
+    type: application
+    platform: iOS
+    sources:
+      - path: Stalium
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fr.stalium.transport
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: Stalium/Stalium.entitlements
+        INFOPLIST_FILE: Stalium/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+    dependencies:
+      - package: Firebase
+        product: FirebaseMessaging
