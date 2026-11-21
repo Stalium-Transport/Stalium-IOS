@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03291F89783368EDEEC840F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD6F4D636D8881DB1D08E7 /* LoginView.swift */; };
+		0C40DCC17D2AC45ADAB6BC1A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B2E47E1299EA6F1FA34927 /* Theme.swift */; };
+		34929A463DC70C9543823D6B /* SheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A283AD6CB3018771E42AE /* SheetsView.swift */; };
+		450D3F055EE552BF72B4CF30 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDEC379380C8FC66A6D7BFF /* Api.swift */; };
+		66A40CB6CCBEAB62D125F7A1 /* ListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08866AA5D91625D37714FFB1 /* ListViews.swift */; };
+		ADD4ED2614E68311930019E8 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B18823486BC0DBA8326C1C42 /* FirebaseMessaging */; };
+		AE8FDA2CECA4398EBF2925CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007CED5279E082DC8A6B17B /* HomeView.swift */; };
+		E44D49024F9CA741EC99D347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6822D902E36E1374FD630A /* Assets.xcassets */; };
+		E978EC55859FE390C9EFDD05 /* StaliumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB6E4789CEA7764F67C3F3 /* StaliumApp.swift */; };
+		F97D981DF4C9CEB212BECA4D /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC476690550180FF375962F6 /* MoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08866AA5D91625D37714FFB1 /* ListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViews.swift; sourceTree = "<group>"; };
+		0E6822D902E36E1374FD630A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5007CED5279E082DC8A6B17B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7CAD6F4D636D8881DB1D08E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7FDEC379380C8FC66A6D7BFF /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		92AB6E4789CEA7764F67C3F3 /* StaliumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaliumApp.swift; sourceTree = "<group>"; };
+		95095C0CBA656FCBA5DD323E /* Stalium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stalium.entitlements; sourceTree = "<group>"; };
+		A2B2E47E1299EA6F1FA34927 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A34A283AD6CB3018771E42AE /* SheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsView.swift; sourceTree = "<group>"; };
+		BC476690550180FF375962F6 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		BCED29616C71C9F1F4D09915 /* Stalium.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Stalium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE082004E2B6F20F06DBBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31726F51BA39509704CF628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD4ED2614E68311930019E8 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B25E1FDD3C3BE155840C796 /* Stalium */ = {
+			isa = PBXGroup;
+			children = (
+				7FDEC379380C8FC66A6D7BFF /* Api.swift */,
+				0E6822D902E36E1374FD630A /* Assets.xcassets */,
+				5007CED5279E082DC8A6B17B /* HomeView.swift */,
+				CBE082004E2B6F20F06DBBCD /* Info.plist */,
+				08866AA5D91625D37714FFB1 /* ListViews.swift */,
+				7CAD6F4D636D8881DB1D08E7 /* LoginView.swift */,
+				BC476690550180FF375962F6 /* MoreView.swift */,
+				A34A283AD6CB3018771E42AE /* SheetsView.swift */,
+				95095C0CBA656FCBA5DD323E /* Stalium.entitlements */,
+				92AB6E4789CEA7764F67C3F3 /* StaliumApp.swift */,
+				A2B2E47E1299EA6F1FA34927 /* Theme.swift */,
+			);
+			path = Stalium;
+			sourceTree = "<group>";
+		};
+		19F976BA5A7D72DA2CC4D910 = {
+			isa = PBXGroup;
+			children = (
+				0B25E1FDD3C3BE155840C796 /* Stalium */,
+				F995D42A47F78E1FA20B9E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F995D42A47F78E1FA20B9E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCED29616C71C9F1F4D09915 /* Stalium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11CDA27B1F7715CDF577840E /* Stalium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFA9F9787813FFBCF636F85 /* Build configuration list for PBXNativeTarget "Stalium" */;
+			buildPhases = (
+				4A598DDF39FBE404B03C7285 /* Sources */,
+				749B719DD60154134EB3CE9E /* Resources */,
+				F31726F51BA39509704CF628 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stalium;
+			packageProductDependencies = (
+				B18823486BC0DBA8326C1C42 /* FirebaseMessaging */,
+			);
+			productName = Stalium;
+			productReference = BCED29616C71C9F1F4D09915 /* Stalium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BCD976E344520BE5A420AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					11CDA27B1F7715CDF577840E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2F92FA2CCDB6908DAD704D9 /* Build configuration list for PBXProject "Stalium" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 19F976BA5A7D72DA2CC4D910;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				47FCCA9E511F9D0C0AC71BBA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F995D42A47F78E1FA20B9E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11CDA27B1F7715CDF577840E /* Stalium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		749B719DD60154134EB3CE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44D49024F9CA741EC99D347 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A598DDF39FBE404B03C7285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450D3F055EE552BF72B4CF30 /* Api.swift in Sources */,
+				AE8FDA2CECA4398EBF2925CB /* HomeView.swift in Sources */,
+				66A40CB6CCBEAB62D125F7A1 /* ListViews.swift in Sources */,
+				03291F89783368EDEEC840F6 /* LoginView.swift in Sources */,
+				F97D981DF4C9CEB212BECA4D /* MoreView.swift in Sources */,
+				34929A463DC70C9543823D6B /* SheetsView.swift in Sources */,
+				E978EC55859FE390C9EFDD05 /* StaliumApp.swift in Sources */,
+				0C40DCC17D2AC45ADAB6BC1A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		516ED7B7B03211AB0F62A0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6F71C79E1C9CA94A02FC20DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		760ECCB2F7A98E46AB757B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stalium/Stalium.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Stalium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.stalium.transport;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E880FB5E8DB23948CD0ED4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stalium/Stalium.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Stalium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.stalium.transport;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFA9F9787813FFBCF636F85 /* Build configuration list for PBXNativeTarget "Stalium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E880FB5E8DB23948CD0ED4AC /* Debug */,
+				760ECCB2F7A98E46AB757B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2F92FA2CCDB6908DAD704D9 /* Build configuration list for PBXProject "Stalium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F71C79E1C9CA94A02FC20DE /* Debug */,
+				516ED7B7B03211AB0F62A0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		47FCCA9E511F9D0C0AC71BBA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B18823486BC0DBA8326C1C42 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47FCCA9E511F9D0C0AC71BBA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BCD976E344520BE5A420AAD /* Project object */;
+}
